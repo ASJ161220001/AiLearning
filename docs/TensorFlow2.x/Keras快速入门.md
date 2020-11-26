@@ -28,7 +28,7 @@ model.evaluate(dataset)
 
 ## Keras Sequential 顺序模型
 
-顺序模型是多个网络层的线性堆叠，目前支持2中方式
+顺序模型是多个网络层的线性堆叠，目前支持2种方式
 
 ### 构造模型
 
@@ -88,7 +88,7 @@ model = Sequential()
 # 其输出数组的尺寸为 (*, 32)
 model.add(Dense(32, input_shape=(16,)))
 
-# 在第一层之后，你就不再需要指定输入的尺寸了：
+# 在第一层之后，你就不再需要指定输入的尺寸了: 
 model.add(Dense(32))
 ```
 
